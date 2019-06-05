@@ -1,0 +1,375 @@
+<!doctype html>
+<html>
+ <head>
+  <meta charset="utf-8" />
+  <title>Medio ambiente</title>
+  
+  <!--grupo CSS-->
+  <link rel="stylesheet" href="css/tema1.min.css" />
+  <link rel="stylesheet" href="css/jquery.mobile.icons-1.4.5.min.css" />
+  <link rel="stylesheet" href="css/jquery.mobile.structure-1.4.5.min.css" />
+  
+  <!--grupo JavaScript-->
+  <script src="js/jquery-1.11.2.min.js"></script>
+  <script src="js/jquery.mobile-1.4.5.min.js"></script>
+  <!--  <script src="js/acciones.js"></script>  -->
+  <script src="phonegap.js"></script>
+  
+  <style>
+    .ali {
+    	text-align: left;
+    }
+   #tipos {
+	   list-style:none;}
+	ul {
+		font-size:1.3em;}
+	ul li {
+		font-size: 1.5em;}
+	ol li {
+		font-size: 1.5em;}
+	p {
+        text-align: justify;
+		font-size: 1.5em;}
+  </style>
+  <script type="text/javascript">
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+  </script>
+  
+  <!-- Start WOWSlider.com HEAD section -->
+<link rel="stylesheet" type="text/css" href="engine1/style.css" />
+<script type="text/javascript" src="engine1/jquery.js"></script>
+<!-- End WOWSlider.com HEAD section -->
+<!-- Start WOWSlider.com HEAD section -->
+<link rel="stylesheet" type="text/css" href="engine2/style.css" />
+<script type="text/javascript" src="engine2/jquery.js"></script>
+<!-- End WOWSlider.com HEAD section -->
+  
+ </head>
+ 
+ <body onLoad="MM_preloadImages('imagenes/aire1.jpg')">
+ 
+  <div data-role="page" id="Principal" data-theme="a">
+   <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+    <h1>MEDIO AMBIENTE</h1>
+   </div>
+   
+  <div>
+   <ul data-role="listview" data-theme="c" class="ui-listview ui-group-theme-b">
+    <li class="ui-first-child ui-last-child">
+     <a href="#Pagina1" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+     <h2>Definicion</h2>
+     <p>Mi medio ambiente</p>
+     </a>
+    </li>
+    <li class="ui-first-child ui-last-child">
+     <a href="#Pagina2" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+     <h2>Ambiente</h2>
+     <p>Atmosfera, Clima y Vida</p>
+     </a>
+    </li>
+    <li class="ui-first-child ui-last-child">
+     <a href="#Pagina3" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+     <h2>Desafios</h2>
+     <p>El medio ambiente; contras</p>
+     </a>
+    </li>
+    <li class="ui-first-child ui-last-child">
+     <a href="#Pagina4" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+     <h2>Ecosistema</h2>
+     <p>Tipos</p>
+     </a>
+    </li>
+    <li class="ui-first-child ui-last-child">
+     <a href="#Pagina5" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+     <h2>Su día</h2>
+     <p>Día mundial del medio ambiente</p>
+     </a>
+    </li>
+    <li class="ui-first-child ui-last-child">
+     <a href="#Pagina8" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+     <h2>El por qué</h2>
+     <p>...</p>
+     </a>
+    </li>
+   </ul>
+   </div>
+   <div data-role="footer" align="center" data-theme="a" data-position="fixed">
+    <div>
+     <img src="res/android/mdpi.png" width="46" height="46">
+    </div>
+    <div>
+     <h4>Alberto Velasco Bautista</h4>
+    </div>
+   </div>
+  </div>
+  <div data-role="page" id="Pagina1" data-add-back-btn="true" data-theme="a">
+   <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+    <h1>DEFINICIÓN</h1>
+   </div>
+   <div data-role="content" align="center">
+    <div>
+     <p style="text-align: justify; font-size: 1.7em;">El medio ambiente o entorno natural abarca todos los seres vivos y no vivos que interaccionan naturalmente. El término se aplica con mayor frecuencia a la Tierra o algunas partes de ella.  El concepto de medio ambiente natural se puede distinguir como componentes: <br>
+
+Unidades ecológicas completas que funcionan como sistemas naturales sin una intervención humana masiva y civilizada, incluida toda la vegetación, los microorganismos, el suelo, las rocas, la atmósfera y los fenómenos naturales que ocurren dentro de sus límites y su naturaleza.
+Los recursos naturales universales y los fenómenos físicos que carecen de límites definidos, como el aire, el agua y el clima, así como la energía, la radiación, la carga eléctrica y el magnetismo, no se originan en acciones humanas civilizadas.</p>
+    </div>
+    
+    <div data-role="collapsible" data-content-theme="false">
+     <h1>Imagenes</h1>
+    <div>
+    <!--aqui va el visor-->
+    <!-- Start WOWSlider.com BODY section -->
+<div id="wowslider-container1">
+<div class="ws_images"><ul>
+		<li><img src="data1/images/med.jpg" id="wows1_0"/></li>
+		<li><img src="data1/images/med1.jpg" alt="aire" id="wows1_1"/></li>
+		<li><img src="data1/images/med2.jpg" id="wows1_2"/></li>
+		<li><img src="data1/images/med3.jpg" id="wows1_3"/></li>
+		<li><img src="data1/images/med4.jpg" id="wows1_4"/></li>
+		<li><img src="data1/images/med5.jpg" id="wows1_5"/></li>
+		<li><img src="data1/images/med6.jpg" id="wows1_6"/></li>
+		<li><a href="http://wowslider.com"><img src="data1/images/med7.jpg" id="wows1_7"/></a></li>
+		<li><img src="data1/images/med8.jpg" alt="noconsu" id="wows1_8"/></li>
+	</ul></div>
+	<div class="ws_bullets"><div>
+		<a href="#" ><span><img src="data1/tooltips/med.jpg"/>1</span></a>
+		<a href="#" ><span><img src="data1/tooltips/med1.jpg" alt="aire"/>2</span></a>
+		<a href="#" ><span><img src="data1/tooltips/med2.jpg" alt="atenta"/>3</span></a>
+		<a href="#" ><span><img src="data1/tooltips/med3.jpg" alt="agua1"/>4</span></a>
+		<a href="#" ><span><img src="data1/tooltips/med4.jpg" alt="link"/>5</span></a>
+		<a href="#" ><span><img src="data1/tooltips/med5.jpg" alt="aire1"/>6</span></a>
+		<a href="#" ><span><img src="data1/tooltips/med6.jpg" alt="noconsu"/>7</span></a>
+		<a href="#" ><span><img src="data1/tooltips/med7.jpg" alt="salud"/>8</span></a>
+		<a href="#" ><span><img src="data1/tooltips/med8.jpg" alt="noconsu"/>9</span></a>
+	</div></div><div class="ws_script" style="position:absolute;left:-99%"><a href="http://wowslider.com">wowslider.com</a> by WOWSlider.com v8.7</div>
+<div class="ws_shadow"></div>
+</div>	
+<script type="text/javascript" src="engine1/wowslider.js"></script>
+<script type="text/javascript" src="engine1/script.js"></script>
+<!-- End WOWSlider.com BODY section -->
+    </div>
+   </div>
+    
+   </div>
+   <div data-role="footer" align="center" data-theme="a" data-position="fixed">
+    <div>
+     <img src="res/android/mdpi.png" width="46" height="46">
+    </div>
+     <h4>Alberto Velasco Bautista | 6° H</h4>
+   </div>
+  </div>
+  
+  
+  <div data-role="page" id="Pagina2" data-add-back-btn="true" data-theme="a">
+   <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+    <h1>ATMÓSFERA, CLIMA Y VIDA</h1>
+   </div>
+   <div data-role="content" align="center">
+    <div>
+     <ul id="tipos">
+      <li>Atmosfera</li>
+      <p>Factor clave para sostener el ecosistema planetario. La delgada capa de gases que envuelve a la Tierra se mantiene en su lugar por la gravedad del planeta. El aire consta de 78% de nitrógeno, 21% de oxígeno, 1% de argón y otros gases inertes, como el dióxido de carbono. Muchas sustancias naturales pueden estar presentes en pequeñas cantidades en una muestra de aire sin filtrar, incluyendo polvo, polen y esporas, rocío marino, cenizas volcánicas y meteoroides. Varios industriales contaminantes también pueden estar presentes, tales como cloro (primaria o en los compuestos), flúor compuestos, elemental mercurio y azufre compuestos tales como dióxido de azufre [SO2].
+
+La capa de ozono de la atmósfera de la Tierra juega un papel importante en el agotamiento de la cantidad de radiación ultravioleta (UV) que llega a la superficie. Como el ADN se daña fácilmente con la luz UV, esto sirve para proteger la vida en la superficie. La atmósfera también retiene el calor durante la noche, lo que reduce las temperaturas diarias extremas.</p>
+      <div class="ali"><a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image17','','imagenes/atmos1.jpg',0)"><img display="left" src="imagenes/atmos.jpg" width="70%" height="50%" id="Image17"></a></div>
+      <li>Clima</li>
+      <p>El clima, por otro lado, es la condición actual de temperatura, humedad, presión atmosférica, viento, lluvia, conteo de partículas atmosféricas y otros elementos meteorológicos durante períodos de hasta dos semanas.
+
+Los climas se pueden clasificar de acuerdo con el promedio y los rangos típicos de diferentes variables, generalmente temperatura y precipitación. El esquema de clasificación más utilizado es el desarrollado originalmente por Wladimir Köppen.</p>
+      <div class="ali"><a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image18','','imagenes/clim1.jpg',0)"><img src="imagenes/clim.jpg" width="70%" height="50%" id="Image18"></a></div>
+      <li>Vida</li>
+      <p>
+Aunque no existe un acuerdo universal sobre la definición de vida, los científicos generalmente aceptan que la manifestación biológica de la vida se caracteriza por la organización, el metabolismo, el crecimiento, la adaptación, la respuesta a los estímulos y la reproducción. En biología, la ciencia de los organismos vivos, la "vida" es la condición que distingue a los organismos activos de la materia inorgánica, incluida la capacidad de crecimiento, la actividad funcional y el cambio continuo que precede a la muerte.
+Se puede encontrar una variedad diversa de organismos vivos (formas de vida) en la biosfera en la Tierra, y las propiedades comunes a estos organismos ( plantas, animales, hongos, protistas, arqueas y bacterias) son una forma celular basada en carbono y agua con Organización compleja e información genética hereditaria. Los organismos vivos sufren metabolismo, mantienen la homeostasis, poseen la capacidad de crecer, responden a estímulos, se reproducen y, a través de la selección natural, se adaptan a su entorno en generaciones sucesivas. Los organismos vivos más complejos pueden comunicarse a través de diversos medios.</p><div class="ali"><a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image21','','imagenes/vid1.jpg',1)"><img src="imagenes/vid.jpg" width="70%" height="50%" id="Image21"></a></div>
+     </ul>
+    </div>
+   </div>
+   <div data-role="footer" align="center" data-theme="a" data-position="fixed">
+    <div>
+     <img src="res/android/mdpi.png" width="46" height="46">
+    </div>
+     <h4>Alberto Velasco Bautista | 6° H</h4>
+   </div>
+  </div>
+  
+  <div data-role="page" id="Pagina3" data-add-back-btn="true" data-theme="a">
+   <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+    <h1>DESAFÍOS</h1>
+   </div>
+   <div data-role="content" align="center">
+    <div>
+    <ul align="left">
+     <li>Eliminación de la contaminación y los tóxicos en el aire, el agua, el suelo, los edificios, los productos manufacturados y los alimentos.</li>
+     <div style="text-align: center;"><img src="imagenes/conta.jpg" width="70%" height="70%"></div>
+     <li>Preservación de la biodiversidad y protección de especies en peligro de extinción.</li>
+     <div style="text-align: center;"><img src="imagenes/ext.jpg" width="70%" height="70%"></div>
+     <li>Conservación y uso sostenible de recursos como el agua, tierra, aire, energía, materias primas y recursos naturales.</li>
+     <div style="text-align: center;"><img src="imagenes/reciclaje2.jpg" width="70%" height="70%"></div>
+     <li>Detener el calentamiento global inducido por el hombre, una amenaza para la biodiversidad.</li>
+     <div style="text-align: center;"><img src="imagenes/calentamiento.jpg" width="70%" height="70%"></div>
+     <li>El cambio de combustibles fósiles a energías renovables en electricidad, calefacción y refrigeración, y transporte,  el calentamiento global y la sostenibilidad.</li>
+     <div style="text-align: center;"><img src="imagenes/deterioro.jpg" width="70%" height="70%"></div>
+     <li>Gestión de residuos sostenible y menos contaminante , incluida la reducción de residuos, la reutilización, el reciclaje, el compostaje, la conversión de residuos en energía.</li>
+     <div style="text-align: center;"><img src="imagenes/reciclaje.jpg" width="70%" height="70%"></div>
+     <li>Ralentización y estabilización del crecimiento de la población humana.</li>
+     <div style="text-align: center;"><img src="imagenes/huma.jpg" width="70%" height="70%"></div>
+    </ul>
+    <a href="https://www.youtube.com/watch?v=nvAw768sH3g" target="_self" style="text-align: center;">Cómo cuidar el ambiente</a>
+    </div>
+   </div>
+   <div data-role="footer" align="center" data-theme="a" data-position="fixed">
+    <div>
+     <img src="res/android/mdpi.png" width="46" height="46">
+    </div>
+     <h4>Alberto Velasco Bautista | 6° H</h4>
+   </div>
+  </div>
+  
+  <div data-role="page" id="Pagina4" data-add-back-btn="true" data-theme="a">
+   <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+    <h1>ECOSISTEMA Y TIPOS</h1>
+   </div>
+   <div data-role="content" align="center">
+    <div>
+     <h2 >Qué es</h2>
+     <p style="font-size: 1.7em;"> Un ecosistema es un sistema biológico constituido por una comunidad de organismos vivos (biocenosis) y el medio físico donde se relacionan (biotopo). También se puede definir así: «Un ecosistema consiste de la comunidad biológica de un lugar y de los factores físicos y químicos que constituyen el ambiente abiótico». Se considera que los factores abióticos y bióticos están ligados por las cadenas tróficas o sea el flujo de energía y nutrientes en los ecosistemas.</p>
+     <div class="ali"><a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image20','','imagenes/ter.jpg',0)"><img src="imagenes/med8.jpg" width="70%" height="60%" id="Image20"></a> </div>
+     </div>
+    <div>
+     <h2>Tipos</h2>
+     <ul align="left">
+      <li>Acuático</li>
+      <p>Los ecosistemas acuáticos incluyen las aguas de los océanos y las aguas continentales dulces o saladas.
+Cada uno de estos cuerpos de agua tiene estructuras y propiedades físicas particulares con relación a la luz, temperatura, olas, corrientes y composición química, así como diferentes tipos de organizaciones ecológicas y de distribución de los organismos.</p>
+<div class="ali">
+      <img src="imagenes/mar.jpg" width="70%" height="70%">
+     </div>
+
+      <li>Terrestre</li>
+      <p>Son aquellos en los que la flora y fauna se desarrollan en el suelo o subsuelo. Dependen de la humedad, temperatura, altitud y latitud, de tal manera que los ecosistemas biológicamente más ricos y diversos se encuentra a mayor humedad, mayor temperatura, menor altitud y menor latitud. Los ecosistemas pueden clasificarse según el tipo de vegetación.</p>
+      <div class="ali">
+      <img src="imagenes/ter.jpg" width="70%" height="70%">
+     </div>
+
+      <li>Híbrido</li>
+      <p>Es el ecosistema inundable o humedal, un híbrido entre un ecosistema terrestre y acuático. Son suelos cubiertos de agua dulce o salada, permanentemente o durante gran parte del año, encontrándose comúnmente en las llanuras aluviales. Dependiendo de sus características presentan plantas acuáticas, herbáceas, árboles, helechos, algas y una fauna adaptada a este hábitat.</p>
+      <div class="ali">
+      <img src="imagenes/hibri.jpg" width="70%" height="70%">
+     </div>
+
+      <li>Microbiano</li>
+      <p>Dentro de la microbiología igualmente podemos describir sistemas compuestos de organismos microbianos interdependientes que comparten un mismo hábitat.</p>
+      <div class="ali">
+      <img src="imagenes/mic.jpg" width="70%" height="70%">
+     </div>
+
+     </ul>
+     
+    </div>
+    
+   </div>
+   <div data-role="footer" align="center" data-theme="a" data-position="fixed">
+    <div>
+     <img src="res/android/mdpi.png" width="46" height="46">
+    </div>
+     <h4>Alberto Velasco Bautista | 6° H</h4>
+   </div>
+  </div>
+  
+  
+  <div data-role="page" id="Pagina5" data-add-back-btn="true" data-theme="a">
+   <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+    <h1>SU DÍA</h1>
+   </div>
+   <div data-role="content" align="center">
+    <div>
+     <ol align="left">
+     	<p style="font-size: 1.7em;">El 5 de junio, se celebra globalmente el Día Mundial del Medio Ambiente. Este fue establecido por la Asamblea General de las Naciones Unidas en 1972. Es uno de los medios importantes por los cuales la ONU estimula la sensibilización mundial acerca del entorno.</p>
+      <li>Reciclar</li>
+      <li>Desarrollo sostenible</li>
+      <li>Comprar menos productos industriales</li>
+      <li>Utilizar objetos reutilizables en las compras</li>
+     </ol>
+     <a href="https://www.youtube.com/watch?v=iUPIBv5pPYw" target="_self" style="text-align: center;">Ese día</a>
+     <br>
+     <br>
+     <div>
+      <!--otro visor-->
+      <!-- Start WOWSlider.com BODY section -->
+<div id="wowslider-container2">
+<div class="ws_images"><ul>
+		<li><img src="data2/images/propia.png" alt="propia" id="wows2_0"/></li>
+		<li><img src="data2/images/propia1.png" alt="propia1" id="wows2_1"/></li>
+		<li><img src="data2/images/propia2.png" alt="propia2" id="wows2_2"/></li>
+		<li><a href="http://wowslider.com"><img src="data2/images/propia3.png" alt="http://wowslider.com/" id="wows2_3"/></a></li>
+		<li><img src="data2/images/propia4.png" alt="propia4" id="wows2_4"/></li>
+	</ul></div>
+	<div class="ws_bullets"><div>
+		<a href="#" title="propia"><span><img src="data2/tooltips/propia.png" alt="propia"/>1</span></a>
+		<a href="#" title="propia1"><span><img src="data2/tooltips/propia1.png" alt="propia1"/>2</span></a>
+		<a href="#" title="propia2"><span><img src="data2/tooltips/propia2.png" alt="propia2"/>3</span></a>
+		<a href="#" title="propia3"><span><img src="data2/tooltips/propia3.png" alt="propia3"/>4</span></a>
+		<a href="#" title="propia4"><span><img src="data2/tooltips/propia4.png" alt="propia4"/>5</span></a>
+	</div></div><div class="ws_script" style="position:absolute;left:-99%"><a href="http://wowslider.com">wowslider.com</a> by WOWSlider.com v8.7</div>
+<div class="ws_shadow"></div>
+</div>	
+<script type="text/javascript" src="engine2/wowslider.js"></script>
+<script type="text/javascript" src="engine2/script.js"></script>
+<!-- End WOWSlider.com BODY section -->
+     </div>
+    </div>
+   
+    <div data-role="collapsible" data-content-theme="false">
+     <h1>Mas información</h1>
+    <div>
+    <a href="https://www.un.org/es/events/environmentday/" target="_self"><img src="imagenes/propia3.png" width="70%" height="70%"></a>
+    </div>
+   </div>
+    
+   </div>
+   <div data-role="footer" align="center" data-theme="a" data-position="fixed">
+    <div>
+     <img src="res/android/mdpi.png" width="46" height="46">
+    </div>
+     <h4>Alberto Velasco Bautista | 6° H</h4>
+   </div>
+  </div>
+
+  <div data-role="page" id="Pagina8" data-add-back-btn="true" data-theme="a">
+   <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+    <h1>¿POR QUÉ?</h1>
+   </div>
+   <div data-role="content" align="center">
+    <div>
+      <p style="text-align: justify; font-size: 1.7em;">El propósito de esta áplicación es la de informar, concientizar y motivar a la población acerca del medio ambiente; informar sobre lo qué es, concientizar sobre los problemas en este, motivar a llevar a cabo acciones para combatir los problemas presentados.</p>
+    </div>
+   </div>
+   <div data-role="footer" align="center" data-theme="a" data-position="fixed">
+    <div>
+     <img src="res/android/mdpi.png" width="46" height="46">
+    </div>
+     <h4>Alberto Velasco Bautista | 6° H</h4>
+   </div>
+  </div>
+ </body>
+</html>
