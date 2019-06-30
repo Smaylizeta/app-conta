@@ -8,19 +8,25 @@
   <link rel="stylesheet" href="css/tema1.min.css" />
   <link rel="stylesheet" href="css/jquery.mobile.icons-1.4.5.min.css" />
   <link rel="stylesheet" href="css/jquery.mobile.structure-1.4.5.min.css" />
+  <link rel="stylesheet" type="text/css" href="css/animate.css">
   
   <!--grupo JavaScript-->
   <script src="js/jquery-1.11.2.min.js"></script>
   <script src="js/jquery.mobile-1.4.5.min.js"></script>
-  <!--  <script src="js/acciones.js"></script>  -->
   <script src="phonegap.js"></script>
+  <script src="js/acciones.js"></script>
+
   
   <style>
+    body {
+    	font-family: Arial Black;
+    }
     .ali {
     	text-align: left;
     }
    #tipos {
 	   list-style:none;}
+	#tipos p {font-size:1.5em;}
 	ul {
 		font-size:1.3em;}
 	ul li {
@@ -30,6 +36,22 @@
 	p {
         text-align: justify;
 		font-size: 1.5em;}
+	h1, h4 {
+		font-family: Georgia, serbia;
+	}
+	.ui-listview {
+		text-align: center;
+		}
+
+	.ui-listview li {
+		width: 40%;
+		margin: 5px;
+		padding-left: 30%;
+		padding-right: 30%;
+	}
+	.ui-listview h2 {
+		font-family: Georgia, serbia;
+	}
   </style>
   <script type="text/javascript">
 function MM_swapImgRestore() { //v3.0
@@ -63,6 +85,10 @@ function MM_swapImage() { //v3.0
 <link rel="stylesheet" type="text/css" href="engine2/style.css" />
 <script type="text/javascript" src="engine2/jquery.js"></script>
 <!-- End WOWSlider.com HEAD section -->
+<!-- Start WOWSlider.com HEAD section -->
+<link rel="stylesheet" type="text/css" href="engine3/style.css" />
+<script type="text/javascript" src="engine3/jquery.js"></script>
+<!-- End WOWSlider.com HEAD section -->
   
  </head>
  
@@ -75,38 +101,40 @@ function MM_swapImage() { //v3.0
    
   <div>
    <ul data-role="listview" data-theme="c" class="ui-listview ui-group-theme-b">
+   	
     <li class="ui-first-child ui-last-child">
-     <a href="#Pagina1" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+     <a href="#Pagina1" class="ui-btn ui-btn-icon-right ui-icon-arrow-r">
      <h2>Definicion</h2>
      <p>Mi medio ambiente</p>
      </a>
     </li>
+    
     <li class="ui-first-child ui-last-child">
-     <a href="#Pagina2" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+     <a href="#Pagina2" class="ui-btn ui-btn-icon-right ui-icon-arrow-r">
      <h2>Ambiente</h2>
      <p>Atmosfera, Clima y Vida</p>
      </a>
     </li>
     <li class="ui-first-child ui-last-child">
-     <a href="#Pagina3" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+     <a href="#Pagina3" class="ui-btn ui-btn-icon-right ui-icon-arrow-r">
      <h2>Desafios</h2>
      <p>El medio ambiente; contras</p>
      </a>
     </li>
     <li class="ui-first-child ui-last-child">
-     <a href="#Pagina4" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+     <a href="#Pagina4" class="ui-btn ui-btn-icon-right ui-icon-arrow-r">
      <h2>Ecosistema</h2>
      <p>Tipos</p>
      </a>
     </li>
     <li class="ui-first-child ui-last-child">
-     <a href="#Pagina5" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+     <a href="#Pagina5" class="ui-btn ui-btn-icon-right ui-icon-arrow-r">
      <h2>Su día</h2>
      <p>Día mundial del medio ambiente</p>
      </a>
     </li>
     <li class="ui-first-child ui-last-child">
-     <a href="#Pagina8" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+     <a href="#Pagina8" class="ui-btn ui-btn-icon-right ui-icon-heart">
      <h2>El por qué</h2>
      <p>...</p>
      </a>
@@ -220,21 +248,21 @@ Se puede encontrar una variedad diversa de organismos vivos (formas de vida) en 
     <div>
     <ul align="left">
      <li>Eliminación de la contaminación y los tóxicos en el aire, el agua, el suelo, los edificios, los productos manufacturados y los alimentos.</li>
-     <div style="text-align: center;"><img src="imagenes/conta.jpg" width="70%" height="70%"></div>
+     <div style="text-align: center;"><img class="anime" src="imagenes/conta.jpg" width="70%" height="70%"></div>
      <li>Preservación de la biodiversidad y protección de especies en peligro de extinción.</li>
-     <div style="text-align: center;"><img src="imagenes/ext.jpg" width="70%" height="70%"></div>
+     <div style="text-align: center;"><img class="anime" src="imagenes/ext.jpg" width="70%" height="70%"></div>
      <li>Conservación y uso sostenible de recursos como el agua, tierra, aire, energía, materias primas y recursos naturales.</li>
-     <div style="text-align: center;"><img src="imagenes/reciclaje2.jpg" width="70%" height="70%"></div>
+     <div style="text-align: center;"><img class="anime" src="imagenes/reciclaje2.jpg" width="70%" height="70%"></div>
      <li>Detener el calentamiento global inducido por el hombre, una amenaza para la biodiversidad.</li>
-     <div style="text-align: center;"><img src="imagenes/calentamiento.jpg" width="70%" height="70%"></div>
+     <div style="text-align: center;"><img class="anime" src="imagenes/calentamiento.jpg" width="70%" height="70%"></div>
      <li>El cambio de combustibles fósiles a energías renovables en electricidad, calefacción y refrigeración, y transporte,  el calentamiento global y la sostenibilidad.</li>
-     <div style="text-align: center;"><img src="imagenes/deterioro.jpg" width="70%" height="70%"></div>
+     <div style="text-align: center;"><img class="anime" src="imagenes/deterioro.jpg" width="70%" height="70%"></div>
      <li>Gestión de residuos sostenible y menos contaminante , incluida la reducción de residuos, la reutilización, el reciclaje, el compostaje, la conversión de residuos en energía.</li>
-     <div style="text-align: center;"><img src="imagenes/reciclaje.jpg" width="70%" height="70%"></div>
+     <div style="text-align: center;"><img class="anime" src="imagenes/reciclaje.jpg" width="70%" height="70%"></div>
      <li>Ralentización y estabilización del crecimiento de la población humana.</li>
-     <div style="text-align: center;"><img src="imagenes/huma.jpg" width="70%" height="70%"></div>
+     <div style="text-align: center;"><img class="anime" src="imagenes/huma.jpg" width="70%" height="70%"></div>
     </ul>
-    <a href="https://www.youtube.com/watch?v=nvAw768sH3g" target="_self" style="text-align: center;">Cómo cuidar el ambiente</a>
+    <a href="https://www.youtube.com/watch?v=nvAw768sH3g" target="_self" style="text-align: center; font-size: 1.7em;">Cómo cuidar el ambiente</a>
     </div>
    </div>
    <div data-role="footer" align="center" data-theme="a" data-position="fixed">
@@ -262,25 +290,25 @@ Se puede encontrar una variedad diversa de organismos vivos (formas de vida) en 
       <p>Los ecosistemas acuáticos incluyen las aguas de los océanos y las aguas continentales dulces o saladas.
 Cada uno de estos cuerpos de agua tiene estructuras y propiedades físicas particulares con relación a la luz, temperatura, olas, corrientes y composición química, así como diferentes tipos de organizaciones ecológicas y de distribución de los organismos.</p>
 <div class="ali">
-      <img src="imagenes/mar.jpg" width="70%" height="70%">
+      <img class="anime" src="imagenes/mar.jpg" width="70%" height="70%">
      </div>
 
       <li>Terrestre</li>
       <p>Son aquellos en los que la flora y fauna se desarrollan en el suelo o subsuelo. Dependen de la humedad, temperatura, altitud y latitud, de tal manera que los ecosistemas biológicamente más ricos y diversos se encuentra a mayor humedad, mayor temperatura, menor altitud y menor latitud. Los ecosistemas pueden clasificarse según el tipo de vegetación.</p>
       <div class="ali">
-      <img src="imagenes/ter.jpg" width="70%" height="70%">
+      <img class="anime" src="imagenes/ter.jpg" width="70%" height="70%">
      </div>
 
       <li>Híbrido</li>
       <p>Es el ecosistema inundable o humedal, un híbrido entre un ecosistema terrestre y acuático. Son suelos cubiertos de agua dulce o salada, permanentemente o durante gran parte del año, encontrándose comúnmente en las llanuras aluviales. Dependiendo de sus características presentan plantas acuáticas, herbáceas, árboles, helechos, algas y una fauna adaptada a este hábitat.</p>
       <div class="ali">
-      <img src="imagenes/hibri.jpg" width="70%" height="70%">
+      <img class="anime" src="imagenes/hibri.jpg" width="70%" height="70%">
      </div>
 
       <li>Microbiano</li>
       <p>Dentro de la microbiología igualmente podemos describir sistemas compuestos de organismos microbianos interdependientes que comparten un mismo hábitat.</p>
       <div class="ali">
-      <img src="imagenes/mic.jpg" width="70%" height="70%">
+      <img class="anime" src="imagenes/mic.jpg" width="70%" height="70%">
      </div>
 
      </ul>
@@ -310,7 +338,7 @@ Cada uno de estos cuerpos de agua tiene estructuras y propiedades físicas parti
       <li>Comprar menos productos industriales</li>
       <li>Utilizar objetos reutilizables en las compras</li>
      </ol>
-     <a href="https://www.youtube.com/watch?v=iUPIBv5pPYw" target="_self" style="text-align: center;">Ese día</a>
+     <a href="https://www.youtube.com/watch?v=iUPIBv5pPYw" target="_self" style="text-align: center; font-size: 1.7em;">Ese día</a>
      <br>
      <br>
      <div>
@@ -361,12 +389,32 @@ Cada uno de estos cuerpos de agua tiene estructuras y propiedades físicas parti
    </div>
    <div data-role="content" align="center">
     <div>
-      <p style="text-align: justify; font-size: 1.7em;">El propósito de esta áplicación es la de informar, concientizar y motivar a la población acerca del medio ambiente; informar sobre lo qué es, concientizar sobre los problemas en este, motivar a llevar a cabo acciones para combatir los problemas presentados.</p>
+      <p style="text-align: justify; font-size: 1.7em; font-family: Elephant;">El propósito de esta áplicación es la de informar, concientizar y motivar a la población acerca del medio ambiente; informar sobre lo qué es, concientizar sobre los problemas en este, motivar a llevar a cabo acciones para combatir los problemas presentados.</p> <p>Esta es una aplicación hecha para el <a href="https://cbtis016.edu.mx/" target="_self">CBTis 16</a> de Atlixco, Puebla</p><br>
+
+      <!-- Start WOWSlider.com BODY section --> <!-- add to the <body> of your page -->
+	<div id="wowslider-container3">
+	<div class="ws_images"><ul>
+		<li><img src="data3/images/cel.png" id="wows3_0"/></li>
+		<li><img src="data3/images/cbtis.png"  id="wows3_1"/></li>
+		<li><img src="data3/images/mun.png" id="wows3_2"/></li>
+		<li><img src="data3/images/yo.png" id="wows3_3"/></li>
+	</ul></div>
+	<div class="ws_bullets"><div>
+		<a href="#" <span><img src="data3/tooltips/cel.png"/>1</span></a>
+		<a href="#" <span><img src="data3/tooltips/cbtis.png"/>2</span></a>
+		<a href="#" <span><img src="data3/tooltips/mun.png"/>3</span></a>
+		<a href="#" <span><img src="data3/tooltips/yo.png"/>4</span></a>
+	</div></div><div class="ws_script" style="position:absolute;left:-99%"><a href="http://wowslider.com">wowslider.com</a> by WOWSlider.com v8.7</div>
+	<div class="ws_shadow"></div>
+	</div>	
+	<script type="text/javascript" src="engine3/wowslider.js"></script>
+	<script type="text/javascript" src="engine3/script.js"></script>
+	<!-- End WOWSlider.com BODY section -->
     </div>
    </div>
    <div data-role="footer" align="center" data-theme="a" data-position="fixed">
     <div>
-     <img src="res/android/mdpi.png" width="46" height="46">
+     <img class="anime" src="res/android/mdpi.png" width="46" height="46">
     </div>
      <h4>Alberto Velasco Bautista | 6° H</h4>
    </div>
